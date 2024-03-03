@@ -4,7 +4,8 @@ import 'package:whatsapp/message_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   static const String routeName = 'homeScreen';
-  BlendMode? backgroundBlendMode;
+
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -72,7 +73,6 @@ class HomeScreen extends StatelessWidget {
                     padding: const EdgeInsets.all(10),
                     margin: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                        backgroundBlendMode: BlendMode.color,
                         border: Border.all(color: Colors.white),
                         shape: BoxShape.circle),
                     child: const Icon(
