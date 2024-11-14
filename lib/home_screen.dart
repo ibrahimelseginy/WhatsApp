@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
             width: 10,
           ),
           Text(
-            'Ahmed',
+            'Person',
           )
         ]),
         actions: const [
