@@ -23,24 +23,24 @@ class HomeScreen extends StatelessWidget {
             backgroundImage: AssetImage('assets/images/person.jpg'),
           ),
           SizedBox(
-            width: 10,
+            width: 10
           ),
           Text(
-            'Person',
+            'Person'
           )
         ]),
         actions: const [
           Icon(Icons.videocam),
           SizedBox(
-            width: 5,
+            width: 5
           ),
           Icon(Icons.phone),
           SizedBox(
-            width: 5,
+            width: 5
           ),
           Icon(Icons.more_vert_outlined),
           SizedBox(
-            width: 5,
+            width: 5
           ),
         ],
         iconTheme: const IconThemeData(color: Colors.white, size: 30),
